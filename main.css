@@ -41,7 +41,8 @@ header {
     background-color: gainsboro;
     text-indent: 0%;
     border: 1px;
-    border-radius: 25% 20% / 18% 40%;}
+    border-radius: 25% 20% / 18% 40%;
+}
 
 #sidebar ul {
     list-style-type: none;
@@ -77,4 +78,5 @@ main {
 
 #sidebar ul li a:hover {
     color:mediumblue;
+    transition: 0.5s;
 }
