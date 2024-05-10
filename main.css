@@ -1,0 +1,51 @@
+div {
+    margin: 10px;
+    text-indent: 2%;
+    font: 1.5rem "Fira Sans", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: gainsboro;
+    color: black;
+    font-family: Arial;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: right;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 200px;
+    background-color: gainsboro;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    margin-right: 200px;
+}
