@@ -80,3 +80,31 @@ main {
     color:mediumblue;
     transition: 0.5s;
 }
+
+.news {
+    width: 500px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    vertical-align: top;
+    transition: 0.5s;
+    height: 360px;
+    text-align: center;
+    overflow: auto;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.news h1 {
+    font-size:2cap;
+}
+
+.news button {
+    background-color: #004896c2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position:sticky;
+    bottom: 0px;
+}
