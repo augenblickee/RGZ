@@ -8,7 +8,7 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="shortcut icon" href="favicon-16x16.png">
         <link rel="shortcut icon" href="favicon-32x32.png">
-
+        <script src="main.js"></script>
     </head>
 
     <body>
@@ -17,7 +17,25 @@
         </header>
 
         <main>
-            <h1> Контакты </h1>
+            <h1> Курс Валют </h1>
+
+            <h2>Конвертер валют</h2>
+            
+            <div class="calculator">
+                <div>
+                    <label for="rubles">Введите сумму в рублях:</label><br>
+                    <input type="number" id="rubles" name="rubles" oninput="convertToManats()"><br>
+                    <label for="manats">Сумма в азербайджанских манатах:</label><br>
+                    <input type="text" id="manats" name="manats" disabled><br>
+                </div>
+                <div>
+                    <label for="manatsToRubles">Введите сумму в азербайджанских манатах:</label><br>
+                    <input type="number" id="manatsToRubles" name="manatsToRubles" oninput="convertToRubles()"><br>
+                    <label for="rublesResult">Сумма в рублях:</label><br>
+                    <input type="text" id="rublesResult" name="rublesResult" disabled><br>
+                </div>
+                <p id="rate">Загрузка курса...</p>
+            </div>
 
             <div id="sidebar">
                 <a href="https://www.crediteurope.ru/" target="_blank">

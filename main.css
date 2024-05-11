@@ -108,3 +108,42 @@ main {
     position:sticky;
     bottom: 0px;
 }
+
+.calculator {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.calculator div {
+    margin-bottom: 20px;
+}
+
+.calculator label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.calculator input[type="number"],
+.calculator input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.calculator input[type="text"] {
+    background-color: #fff;
+}
+
+.calculator p {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
