@@ -147,3 +147,20 @@ main {
     font-size: 18px;
     color: #666;
 }
+
+.call-center-info {
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.call-center-info h3 {
+    margin-top: 0;
+    font-family: 'Arial', 'Verdana', sans-serif;
+}
+.call-center-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+.call-center-info ul li {
+    margin-bottom: 5px;
+}
